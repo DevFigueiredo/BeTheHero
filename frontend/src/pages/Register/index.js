@@ -9,7 +9,7 @@ export default function Register(){
     return(
      <div className="register-container">
     <div className="content">
-   <section className="">
+   <section >
 <img src={logoSVG} alt="Be The Hero"/>
 <h1>Cadastro</h1>
 <p>Faça seu cadastro em nosso site e ajude a ONG mais proxima de sua cidade. Lutamos por um mundo melhor!</p>

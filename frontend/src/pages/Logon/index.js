@@ -12,7 +12,7 @@ export default function Logon() {
 <section className="logon-container">
 <img src={logoSVG} alt="Be The Hero"/>
 
-<form>
+<form action="/profile">
 <h1>Faça seu Logon</h1>
 <input placeholder="Digite o Usuário" type="text"/>
 <button type="submit" className="button">Entrar</button>
