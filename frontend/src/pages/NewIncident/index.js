@@ -1,9 +1,26 @@
-import React from 'react';
-import { Link } from 'react-router-dom'
+import React,{useState} from 'react';
+import { Link } from 'react-router-dom';
+//import { Link, useHistory } from 'react-router-dom';
 import {FiArrowLeft} from 'react-icons/fi';
 
 import './style.css';
 import logoSVG from '../../assets/logo.svg';
+
+const [title, setTitle] = useState('');
+const [value, setValue] = useState('');
+const [description, setDescription] = useState('');
+//const history = useHistory();
+
+  async function HandleRegisterIncident(){
+      try{
+     const data = {title, value, description};
+     console.log(data);
+     
+     
+      }catch(error){
+
+      }
+  }
 
 
 export default function NewIncident(){
@@ -16,10 +33,10 @@ export default function NewIncident(){
    <Link className="link" to="/profile" ><FiArrowLeft size={16} color="#E02041" />Voltar para o Perfil</Link>
    
       </section>
-   <form>
-       <input placeholder="Titulo do Caso"/>
-       <input placeholder="Valor Doado" />
-       <textarea placeholder="Descrição">
+   <form onSubmit={HandleRegisterIncident}>
+       <input placeholder="Titulo do Caso" value={title} onChange={e=>setTitle(e.target.value)}/>
+       <input placeholder="Valor Doado" value={value} onChange={e=>setValue(e.target.value)}/>
+       <textarea placeholder="Descrição" value={description} onChange={e=>setDescription(e.target.value)}>
            
            </textarea>       
 
