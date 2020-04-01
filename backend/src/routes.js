@@ -16,7 +16,7 @@ routes.get('/incidents', IncidentController.index);
 routes.delete('/incidents/:id', IncidentController.delete);
 
 //Perfil da Ong
-routes.get('/profile/:id', ProfileController.index);
+routes.get('/profile', ProfileController.index);
 
 
 
