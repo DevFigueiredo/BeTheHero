@@ -6,6 +6,7 @@
 
 
 
+* [X] checked   # [checkbox:checked]
 
 
 
