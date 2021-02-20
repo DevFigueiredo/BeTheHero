@@ -68,8 +68,7 @@
 
 > Controller: IncidentController
 > 
-> //Perfil da Ong
-> * [X] **Rota: Visualizar os dados de uma ONG**
+> * [X] **Rota: Visualizar os dados de uma ONG**··
 
 > Método: get
 
