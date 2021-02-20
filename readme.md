@@ -1,4 +1,4 @@
-#### Be The Hero - Rocketseat
+## Be The Hero - Rocketseat
 _Projeto desenvolvido na semana Omnistack da Rocketseat, com objetivo de aprender o universo Javascript, utilizadno as tecnologias NodeJS e ReactJS_
 > ## FrontEnd
 > **Página de Login**
