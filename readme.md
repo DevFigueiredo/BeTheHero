@@ -1,5 +1,25 @@
 ## Be The Hero - Rocketseat
 _Projeto desenvolvido na semana Omnistack da Rocketseat, com objetivo de aprender o universo Javascript, utilizadno as tecnologias NodeJS e ReactJS_
+
+#### Para Executar o Projeto deve executar alguns scripts nos terminais.
+
+> **Baixe o Projeto e Acesse a Pasta:**
+
+> - git clone https://github.com/DevFigueiredo/BeTheHero
+
+> - cd BeTheHero
+
+> ##### Para Executar o BackEnd:
+> - cd backend
+> - npm install
+> - npm start
+
+> ##### Para Executar o FrontEnd:
+> - cd frontend
+> - npm install
+> - npm start
+
+
 > ## FrontEnd
 > **Página de Login**
 > 
